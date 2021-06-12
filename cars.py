@@ -16,3 +16,11 @@ print(sorted(cars))
 
 print("\nThe original list again is:")
 print(cars)
+#printing the reverse order of the list, is permanent. We can always rollback the changes if we use the reverse() command again.
+cars.reverse()
+print(cars)
+cars.reverse()
+print(cars)
+
+#to find the lenght of a list, use the len() command
+len(cars)
